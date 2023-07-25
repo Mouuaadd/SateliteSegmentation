@@ -1,6 +1,8 @@
 # SatelliteSegmentation
 Segment features around residential buildings in UAV images of flooded area taken in Houston after Hurricane Harvey.
 
+![alt text](https://github.com/Mouuaadd/SatelliteSegmentation/blob/main/Leaderboard.JPG?raw=true)
+
 ## Dataset Description
 For this project we needed to perform image segmentation on Florida flood images. To solve this
 problem we used a supervised deep learning approach, where we have labelled masks for each
@@ -20,4 +22,4 @@ hyper-parameters:
 We also implemented early stopping to limit the number of epochs. The total run-time of the
 hyper-parameter optimization module was 2 and a half hours and our best model used 0.00106 as a
 learning rate, a batch size of 4 and Adam as Optimizer. It converged after 35 epochs for
-an accuracy of 67 % on the validation set and an even better 71 % on the test set.
+an accuracy of 67 % on the validation set and an even better 71.9 % on the test set.
